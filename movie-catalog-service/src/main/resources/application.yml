@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: movie-catalog-service
+
+server:
+  port: 8081
+
+host:
+  ip: 192.168.86.112
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${host.ip}:8761/eureka/

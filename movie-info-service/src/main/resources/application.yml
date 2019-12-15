@@ -1,0 +1,18 @@
+api:
+  key: 6a182cfdadb8cc7035bb6f700f800833
+
+spring:
+  application:
+    name: movie-info-service
+
+server:
+  port: 8082
+
+host:
+  ip: 192.168.86.112
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${host.ip}:8761/eureka/
